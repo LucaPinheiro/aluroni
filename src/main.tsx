@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Cardapio from "./pages/Cardapio";
+import Inicio from "./pages/Inicio";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Cardapio />
+    <Inicio />
   </React.StrictMode>
 );
