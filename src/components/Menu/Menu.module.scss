@@ -14,11 +14,14 @@
     padding: 20px $padding-horizontal-md;
   }
 
-  &list {
+  &__list {
     align-items: center;
     display: flex;
   }
-  &link {
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     padding: 0 20px;
     a {
